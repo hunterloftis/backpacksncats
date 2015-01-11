@@ -1,0 +1,80 @@
+.Introduction {
+  text-align: center;
+}
+
+.Title {
+  text-decoration: none;
+  color: #000;
+}
+
+.ArticleLink {
+  display: block;
+  position: relative;
+  margin: 5% 0;
+  color: #fff;
+}
+
+.ArticleLink-thumb {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.ArticleLink-title {
+  font-size: 18px;
+  line-height: 1;
+  margin: 4px;
+  text-align: right;
+}
+
+.ArticleLink-date {
+  font-size: 14px;
+  line-height: 1;
+  margin: 4px;
+  color: #fc8;
+  text-align: right;
+}
+
+.ArticleLink-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 1);
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.Article img {
+  width: 100%;
+}
+
+.ArticleNav {
+  border-top: solid 1px #000;
+  padding: 10px 0 10px 0;
+  white-space: nowrap;
+}
+
+.ArticleNav-previous, .ArticleNav-next {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  color: #000;
+  text-decoration: none;
+}
+
+.ArticleNav-previous span, .ArticleNav-next span {
+  display: block;
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+  opacity: 0.75;
+}
+
+.ArticleNav-previous {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.ArticleNav-next {
+  padding-left: 10px;
+}
