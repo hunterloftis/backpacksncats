@@ -68,5 +68,5 @@ function extractDataFromFilename(file, filename) {
 
 function addPaths(file, filename) {
   if (path.extname(filename) !== '.html') return;
-  file.path = '/' + filename;
+  file.path = filename;
 }
