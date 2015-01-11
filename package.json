@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
-    "serve": "static -p 3000 build"
+    "serve": "static -p 3000 build",
+    "publish": "git subtree push --prefix build --squash origin gh-pages"
   },
   "author": "",
   "license": "ISC",
