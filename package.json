@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "serve": "static -p 3000 build"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-permalinks": "^0.4.0",
     "metalsmith-templates": "^0.6.0",
-    "moment": "^2.9.0"
+    "moment": "^2.9.0",
+    "node-static": "^0.7.6"
   }
 }
