@@ -1,0 +1,36 @@
+<doctype html>
+<html>
+  <head>
+    <!-- Mobile devices -->
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui'>
+    <title>Backpacks'n'Cats</title>
+    <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='/styles/base.css'>
+    <link rel='stylesheet' href='/styles/layout.css'>
+    <link rel='stylesheet' href='/styles/modules.css'>
+  </head>
+  <body>
+    <div class='wrap'>
+      <h1>Backpacks'n'Cats</h1>
+      <section class='Introduction'>
+        {{{ contents }}}
+      </section>
+
+      <nav class='ArticleTeasers'>
+
+        {{#each collections.articles}}
+          <a class='ArticleLink' href='{{ this.path }}'>
+            <div class='ArticleLink-caption'>
+              <h2 class='ArticleLink-title'>{{ this.title }}</h2>
+              <h3 class='ArticleLink-date'>{{formatDate this.date}}</h3>
+            </div>
+            <img class='ArticleLink-thumb' src='{{ this.thumb }}'>
+            <!--<p class='ArticleLink-excerpt'>{{ this.excerpt }}</p>-->
+          </a>
+        {{/each}}
+
+      </nav>
+    </div>
+  </body>
+</html>

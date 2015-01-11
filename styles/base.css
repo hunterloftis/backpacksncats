@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Vollkorn', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  margin: 14px;
+}
+
+h2, h3 {
+  line-height: 1;
+  margin: 10px;
+}
+
+h3 {
+  color: #da0;
+}
