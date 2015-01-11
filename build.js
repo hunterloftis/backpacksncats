@@ -48,7 +48,6 @@ function build() {
   .use(autoprefixer())
   .build(function(err, files) {
     if (err) throw err;
-    setTimeout(build, 2000);
   });
 }
 
