@@ -64,7 +64,7 @@ function extractDataFromFilename(file, filename) {
   var day = parseInt(container.substr(6, 2), 10);
 
   file.date = new Date(year, month, day);
-  file.thumb = path.join(filename.split('.')[0] + '.jpg');
+  file.thumb = path.join(path.dirname(filename), 'thumb.jpg');
 }
 
 function addPaths(file, filename) {
