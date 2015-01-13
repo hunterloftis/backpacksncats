@@ -13,7 +13,7 @@ We'll probably miss the place eventually. We miss the people already.
 As I walked home from [Bob's Donuts](http://www.yelp.com/biz/bobs-donut-and-pastry-shop-san-francisco-2) recently,
 two people asked me for cash,
 I passed a pants-less man rifling through a trashcan,
-and one prostitute offered to 'suck my ****.'
+and one prostitute offered to 'suck my \*\*\*\*.'
 It was about eleven on a Monday night.
 
 Amanda and I spent 2014 in [the Tenderloin](https://www.google.com/search?q=the+tenderloin+sf&espv=2&biw=1391&bih=805&source=lnms&tbm=isch&sa=X&ei=NPOyVN_NCZHvoASC5ILwCQ&ved=0CAcQ_AUoAg),
